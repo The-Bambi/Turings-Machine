@@ -1,0 +1,1 @@
+{"0": {"1": {"newSign": "0", "move": "r", "newState": "0"}, "0": {"newSign": "1", "move": "r", "newState": "0"}, " ": {"newSign": "*", "move": "*", "newState": "halt"}}}

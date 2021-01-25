@@ -1,0 +1,74 @@
+{
+	"0":{
+		"*":{
+			"newSign":"*",
+			"move":"*",
+			"newState":"a"
+		}
+	},
+	"a":{
+		" ":{
+			"newSign":"1",
+			"move":"r",
+			"newState":"b"
+		},
+		"1":{
+			"newSign":"1",
+			"move":"l",
+			"newState":"c"
+		}
+	},
+        "b":{
+                " ":{
+                        "newSign":"1",
+                        "move":"r",
+                        "newState":"c"
+                },
+                "1":{
+                        "newSign":"1",
+                        "move":"l",
+                        "newState":"b"
+                }
+        },
+
+        "c":{
+                " ":{
+                        "newSign":"1",
+                        "move":"r",
+                        "newState":"d"
+                },
+                "1":{
+                        "newSign":" ",
+                        "move":"l",
+                        "newState":"e"
+                }
+        },
+
+        "d":{
+                " ":{
+                        "newSign":"1",
+                        "move":"l",
+                        "newState":"a"
+                },
+                "1":{
+                        "newSign":"1",
+                        "move":"l",
+                        "newState":"d"
+                }
+        },
+        "e":{
+                " ":{
+                        "newSign":"1",
+                        "move":"r",
+                        "newState":"halt"
+                },
+                "1":{
+                        "newSign":"1",
+                        "move":"r",
+                        "newState":"c"
+                }
+        }
+}
+
+
+

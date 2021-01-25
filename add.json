@@ -1,0 +1,14 @@
+{
+	"0":{
+		"1":{
+			"newSign":"*",
+			"move":"r",
+			"newState":"a1"
+		},
+		"0":{
+			"newSign":"*",
+			"move":"r",
+			"newState":"a0"
+		}
+	}
+}
